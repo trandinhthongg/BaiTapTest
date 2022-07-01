@@ -3,11 +3,7 @@ go
 USE quanlynhahang
 GO
 
-CREATE TABLE [dbo].[Account](
-	[UserName] [nvarchar](100) NOT NULL,
-	[DisplayName] [nvarchar](100) NOT NULL,
-	[PassWord] [nvarchar](1000) NOT NULL,
-	[Type] [int] NOT NULL,
+
 PRIMARY KEY CLUSTERED 
 (
 	[UserName] ASC
